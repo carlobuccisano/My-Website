@@ -3,7 +3,7 @@ languageCode = "en"
 #title = "Carlo Buccisano"
 DefaultContentLanguage = "en"
 
-theme = "anatole"
+theme = "anatole_myver"
 
 summarylength = 10
 enableEmoji = true
