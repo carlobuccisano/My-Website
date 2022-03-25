@@ -21,7 +21,7 @@
   name = "CV"
   weight = 400
   identifier = "cv"
-  url = "https://raw.githubusercontent.com/carlobuccisano/Curriculum-Vitae/main/short_cv.pdf" 
+  url = "/cv/" 
 
 [[footer]]
   name = "Colophon"
