@@ -1,11 +1,18 @@
-name: CI
-on: push
+name: github pages
+on: 
+  push:
+    branches:
+      - main         # Branch to deploy
+  pull_request:
+
+
+
 jobs:
   deploy:
     runs-on: ubuntu-20.04
     steps:
       - name: Git checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
