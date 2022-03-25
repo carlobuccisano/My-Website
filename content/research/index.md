@@ -1,6 +1,6 @@
 Work in progress... 
 
-## University Projects[^1]
+## University Projects
 
 1. Master's thesis: [**Derived moduli spaces of G-bundles**](https://raw.githubusercontent.com/carlobuccisano/Master-Thesis/main/tesi.pdf). Written in Orsay under the supervision of [Benjamin Hennion](https://www.imo.universite-paris-saclay.fr/~hennion/).
 2. Bachelor's thesis: [**Analytic functions on p-adic fields**](https://raw.githubusercontent.com/carlobuccisano/BachelorThesis/main/Tesi.pdf). Written in [Padua](https://www.math.unipd.it/en/) under the supervision of [Maurizio Cailotto](https://www.math.unipd.it/~maurizio/).
