@@ -1,0 +1,40 @@
+title = "Carlo Buccisano"
+author = "Carlo Buccisano"
+description = """
+Maths PhD Student
+Université Paris-Saclay
+"""
+profilePicture = "images/avatar.jpg"
+displayMode = "dark"
+favicon = "favicons/"
+
+contentratio=0.8
+
+singleDateFormat = "Mon, Jan 2, 2006"
+indexDateFormat = "Mon, Jan 2, 2006"
+listDateFormat = "Jan 2"
+
+mainSections = []
+
+# Google Fonts
+googleFonts = ["Ubuntu", "Roboto", "Open Sans"]
+
+disableThemeSwitcher = true # Theme switcher is enabled by default
+
+
+## Math settings
+[math]
+enable = true  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+
+[[socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:carlo.buccisano@universite-paris-saclay.fr"
+
+[[socialIcons]]
+icon = "fab fa-github"
+title = "github"
+url = "https://www.github.com/carlobuccisano"
+
