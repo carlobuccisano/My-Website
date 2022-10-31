@@ -4,9 +4,9 @@ I'm a PhD student, from October 2021, at the [Mathematics Department of Orsay](h
 
 My work and my interests revolve around derived algebraic geometry, a mix of algebraic geometry, homotopy theory and higher categories. I am also interested, more broadly, in algebraic topology and in representation theory.
 
-I'm currently a representantive of PhD students both at the Orsay department and in the [EDMH Doctoral School of Mathematics Hadamard](https://www.universite-paris-saclay.fr/ecoles-doctorales/ecole-doctorale-de-mathematiques-hadamard-edmh).
 
-You can join me and the other representatives at : `edmh-representants-doctorants AT fondation-hadamard.fr`.
+[I have been a representant of PhD students both at the Orsay department and in the EDMH Doctoral School of Mathematics Hadamard (https://www.universite-paris-saclay.fr/ecoles-doctorales/ecole-doctorale-de-mathematiques-hadamard-edmh), for the academic year 2021--2022. You can join the current representatives at : `edmh-representants-doctorants AT fondation-hadamard.fr`.]: #
+
 
 ## Contact
 
