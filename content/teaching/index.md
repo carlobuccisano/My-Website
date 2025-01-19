@@ -1,4 +1,4 @@
-## Paris-Saclay University (Orsay Campus)
+## Paris-Saclay University (Orsay Campus)[^1]
 
 ### Spring 2025
 - Exercise sessions for *Algèbre linéaire 3* (L2, MP).
@@ -18,3 +18,5 @@
 ### Spring 2022
 - Exercise sessions for *Maths 3 - Analyse 1* (MI, LDD1).
 - Exercise sessions for *Analyse et géométrie* (MPSI, LDD2).
+
+[^1]: Here's a quick legend: L\(N\) refers to the \(N\)-th year of undergraduate, \(M\) refers to math, \(P\) to physics, \(I\) to computer science and \(DD\) to double degree.

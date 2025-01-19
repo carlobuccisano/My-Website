@@ -19,7 +19,7 @@ mainSections = []
 # Google Fonts
 googleFonts = ["Ubuntu", "Roboto", "Open Sans"]
 
-disableThemeSwitcher = true # Theme switcher is enabled by default
+#disableThemeSwitcher = true # Theme switcher is enabled by default
 
 
 ## Math settings

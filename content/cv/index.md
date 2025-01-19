@@ -8,4 +8,4 @@
 
 ## Long Version
 
-For a more detailed curriculum, update to the last relevant date, click [here](https://raw.githubusercontent.com/carlobuccisano/Curriculum-Vitae/main/short_cv.pdf).
+For a more detailed curriculum, updated to the last relevant date, click [here](https://raw.githubusercontent.com/carlobuccisano/Curriculum-Vitae/main/short_cv.pdf).
