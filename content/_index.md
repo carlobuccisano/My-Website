@@ -2,7 +2,8 @@
 
 I'm a PhD student at the [Orsay Mathematics Department](https://www.imo.universite-paris-saclay.fr/en/), part of [Paris-Saclay University](https://www.universite-paris-saclay.fr/en). I work under the supervision of [Benjamin Hennion](https://www.imo.universite-paris-saclay.fr/~hennion/) and [Emanuele Macrì](https://www.imo.universite-paris-saclay.fr/~macri/).
 
-I work in derived algebraic geometry, and I'm interested in everything homotopically flavoured.
+I work in derived algebraic geometry, a subject that mixed homotopy theory with algebraic geometry. More specifically, my present work focuses on *derived* D-modules, an extension of classical algebraic D-modules to derived scheme which remembers and exploits the additional derived information. I use tools like (derived) Lie algebroids, ind-coherent sheaves, $\infty$-categories etc.
+I am interested and willing to learn, more generally, several other aspects of homotopy theory.
 
 
 [I have been a representant of PhD students both at the Orsay department and in the EDMH Doctoral School of Mathematics Hadamard (https://www.universite-paris-saclay.fr/ecoles-doctorales/ecole-doctorale-de-mathematiques-hadamard-edmh), for the academic year 2021--2022. You can join the current representatives at : `edmh-representants-doctorants AT fondation-hadamard.fr`.]: #

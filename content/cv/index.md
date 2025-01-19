@@ -1,7 +1,6 @@
  # Curriculum Vitae
  ## Short Version
 
-
 1. From October 2021 I'm a PhD student at the Math Department of Orsay.
 2. I graduated from the Natural Science class of the [Scuola Galileiana](http://unipd-scuolagalileiana.it/en/) in October 2022.
 3. I've graduated from the [ALGANT](https://algant.eu/) in July 2021. I spent my second master year in Orsay, enrolled in the *M2 Arithmétique, Analyse, Géométrie*, and my first master year in Padova.
@@ -9,4 +8,4 @@
 
 ## Long Version
 
-For a (slightly) more detailed curriculum, click [here](https://raw.githubusercontent.com/carlobuccisano/Curriculum-Vitae/main/short_cv.pdf).
+For a more detailed curriculum, update to the last relevant date, click [here](https://raw.githubusercontent.com/carlobuccisano/Curriculum-Vitae/main/short_cv.pdf).
