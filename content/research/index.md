@@ -20,7 +20,7 @@
 - Notes on the vertex algebra structure on [chiral differential operators](https://raw.githubusercontent.com/carlobuccisano/Chiral-Diff-Op/main/presentazione.pdf) on an algebraic group.\
  <span class="text-faint small"> Written in [Orsay](https://www.imo.universite-paris-saclay.fr/) for the M2 advanced course *Introduction to Vertex Algebras* by [Anne Moreau](https://www.imo.universite-paris-saclay.fr/~moreau/index-en.htm).</span>
 - Notes on [Grothendieck topologies](https://raw.githubusercontent.com/carlobuccisano/GrothendieckTopology/main/grothendieck.pdf).\
- <span class="text-faint small"> Written for the [Scuola Galileiana](http://unipd-scuolagalileiana.it/en/)'s course *Introduction to category theory* by [Riccardo Colpi](https://www.math.unipd.it/~colpi/).</span>
+ <span class="text-faint small"> Written for the [Scuola Galileiana](https://scuolagalileiana.unipd.it/)'s course *Introduction to category theory* by [Riccardo Colpi](https://www.math.unipd.it/~colpi/).</span>
 - Notes on [Spectral Sequences](https://raw.githubusercontent.com/carlobuccisano/SpectralSequences/main/spectral.pdf).\
  <span class="text-faint small"> Written for the [Algant](https://algant.eu/) master course *Topology 2* by [Andrea D'Agnolo](http://docenti.math.unipd.it/dagnolo/).</span>
 

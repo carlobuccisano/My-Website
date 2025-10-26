@@ -50,7 +50,7 @@
                 </div>
                 <div class="cv_row_right_part">
                     <h4 class="cv_entry"> Galileian School Diploma </h4>
-                    <i class="fa-solid fa-building-columns istituto"> </i> <a href="http://unipd-scuolagalileiana.it/">Galileian School of Higher Studies</a>, Padova (Italy)
+                    <i class="fa-solid fa-building-columns istituto"> </i> <a href="https://scuolagalileiana.unipd.it/">Galileian School of Higher Studies</a>, Padova (Italy)
                 </div>
             </div>
         </li>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="cv_row_right_part">
                     <h4 class="cv_entry"> Master Degree in Mathematics </h4>
-                    <i class="fa-solid fa-building-columns istituto"> </i> <a href="http://algant.eu">ALGANT Double Degree</a>, Padova (Italy) and Orsay (France)
+                    <i class="fa-solid fa-building-columns istituto"> </i> <a href="https://algant.eu">ALGANT Double Degree</a>, Padova (Italy) and Orsay (France)
                 </div>
             </div>
         </li>
@@ -72,7 +72,7 @@
                 </div>
                 <div class="cv_row_right_part">
                     <h4 class="cv_entry"> Undergraduate Degree in Mathematics </h4>
-                    <i class="fa-solid fa-building-columns istituto"> </i> <a href="https://www.math.unipd.it/)">University of Padua</a>, Italy
+                    <i class="fa-solid fa-building-columns istituto"> </i> <a href="https://www.math.unipd.it/">University of Padua</a>, Italy
                 </div>
             </div>
         </li>
