@@ -22,3 +22,7 @@ enableRobotsTXT = true
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)']]
 
+# Suggested by Hugo's GitHub Pages' documentation
+[caches]
+	[caches.images]
+		dir = ':cacheDir/images'
