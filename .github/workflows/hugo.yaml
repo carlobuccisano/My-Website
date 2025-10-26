@@ -106,6 +106,6 @@ jobs:
         #uses: actions/deploy-pages@v4 
         uses: peaceiris/actions-gh-pages@v4
         with:
-          deploy_key: ${{ secrets.PERSONAL_TOKEN }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: carlobuccisano/carlobuccisano.github.io
           publish_dir: ./public
