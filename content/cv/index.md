@@ -89,7 +89,7 @@
                     <span class="cv_years_box"> 2024 - 2025 </span>
                 </div>
                 <div class="cv_row_right_part">
-                    <h4 class="cv_entry"> Attaché Temporaire de Recherche et d'Enseignement </h4>
+                    <h4 class="cv_entry"> Attaché Temporaire d'Enseignement et de Recherche</h4>
                     <i class="fa-solid fa-building-columns istituto"> </i> <a href="https://www.imo.universite-paris-saclay.fr/">Institut Mathématiques d'Orsay</a>, France
                 </div>
             </div>
