@@ -17,6 +17,18 @@ a {
   }
 }
 
+.underline_hover {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.info {
+  @include color.themed() {
+    color: color.t('info');
+  }
+}
+
 blockquote {
   padding: 0 1em;
 
