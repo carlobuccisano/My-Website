@@ -16,8 +16,8 @@
                 <td> Carlo Buccisano </td>
             </tr>
             <tr>
-                <td> <b> Date of Birth </b> </td>
-                <td> 29th of December 1997 </td>
+                <td> <b> Citizenship </b> </td>
+                <td> Italian </td>
             </tr>
             <tr>
                 <td> <b> Languages </b> </td>
