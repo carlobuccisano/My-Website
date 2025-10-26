@@ -1,0 +1,28 @@
+$accent--lightmode: #fff; // Background color of light mode
+$primary--lightmode: #555555; // Main writing color of light mode
+$primary-light--lightmode: #646464; // Color of my name
+$primary-lighter--lightmode: #b4b4b4;   // Color for borders & rolling header
+$shadow--lightmode: 0 8px 16px rgba(10, 10, 10, 0.1);
+
+
+$accent--darkmode: #18191c;
+$primary--darkmode: #eeeeee;
+$primary-light--darkmode: #afafaf;
+$primary-lighter--darkmode: #464646;
+$shadow--darkmode: 0 8px 16px rgba(226, 226, 226, 0.1);
+
+$warning: #ffc107; 
+$info--darkmode: #12d7ed; // Link color for darkmode
+$info--lightmode: #154adb; // Link color for lightmode
+$success: #51d88a;
+$danger: #ef5753;
+
+$thumbnail-height: 15em;
+$body-max-width: 1920px;
+
+$transparency: 0.7;   // Opacity for header
+
+$mobile_screen: 600px; // When to switch to desktop layout
+
+
+

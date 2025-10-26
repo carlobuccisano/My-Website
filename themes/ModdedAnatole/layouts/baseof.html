@@ -1,0 +1,22 @@
+<!doctype html>
+<html
+  dir="{{ .Site.Language.LanguageDirection | default "ltr" }}"
+  lang="{{- site.Language.Lang -}}"
+  data-theme="{{- .Site.Params.displayMode -}}"
+  {{ if eq .Site.Params.displayMode "dark" }}
+    class="html theme--dark"
+  {{ else }}
+    class="html theme--light"
+  {{ end }}
+>
+  {{- partial "head.html" . -}}
+  <body class="body in_out_slow_animated">
+        <main class="wrapper in_out_slow_animated">
+        	<header class="header in_out_slow_animated">{{ partial "navbar.html" . }}</header>
+        	{{- block "main" . }}{{- end }}
+      		</main>
+    </div>
+
+    {{- partial "footer.html" (dict "context" . "footerClassModifier" "base") -}}
+  </body>
+</html>

@@ -1,26 +1,22 @@
 # About me
 
-I'm a PhD student at the [Orsay Mathematics Department](https://www.imo.universite-paris-saclay.fr/en/), part of [Paris-Saclay University](https://www.universite-paris-saclay.fr/en). I work under the supervision of [Benjamin Hennion](https://www.imo.universite-paris-saclay.fr/~hennion/) and [Emanuele Macrì](https://www.imo.universite-paris-saclay.fr/~macri/).
-
-I work in derived algebraic geometry, a relatively new subject that mixes homotopy theory with algebraic geometry. More specifically, my present work focuses on *derived* D-modules, an extension of classical algebraic D-modules to derived schemes which remembers and exploits the additional derived information. I use tools like (derived) Lie algebroids, ind-coherent sheaves and \(\infty\)-categories, among others.
-
-I am interested and willing to learn, more generally, several other aspects of homotopy theory.
+## I'm on the job market.
 
 
-[I have been a representant of PhD students both at the Orsay department and in the EDMH Doctoral School of Mathematics Hadamard (https://www.universite-paris-saclay.fr/ecoles-doctorales/ecole-doctorale-de-mathematiques-hadamard-edmh), for the academic year 2021--2022. You can join the current representatives at : `edmh-representants-doctorants AT fondation-hadamard.fr`.]: #
+Hi all, I'm Carlo!
 
+I recently completed a PhD in Mathematics from the [Orsay Mathematics Department](https://www.imo.universite-paris-saclay.fr/) under the supervision of [Benjamin Hennion](https://www.imo.universite-paris-saclay.fr/~hennion/) and [Emanuele Macrì](https://www.imo.universite-paris-saclay.fr/~macri/).
+
+My PhD thesis is titled *On derived D-modules and their several definitions*.
+
+<!-- The broad subject I worked in is derived algebraic geometry, which mixes homotopy theory with algebraic geometry. More specifically, I focused on *derived* D-modules, an extension of classical algebraic D-modules to derived schemes which remembers and exploits the additional derived information. Some keywords are (derived) Lie algebroids, ind-coherent sheaves and \(\infty\)-categories. -->
+
+My broad research area is derived algebraic geometry.
+
+Aside from mathematics, I'm interested in programming and everything Linux-related.
+During my free time I enjoy cooking, brewing coffee, calisthenics, bikepacking and general mountaineering.
 
 ## Contact
 
-E-mail : `name.surname AT universite-paris-saclay.fr`.
+> `name.surname AT universite-paris-saclay.fr`
 
-Adress:
-> **Office 3R15** 
->
-> Institut de Mathématiques d'Orsay
->
-> Bâtiment 307 rue Michel Magat
->
-> Faculté des Sciences d’Orsay - Université Paris-Saclay
->
-> F-91405 Orsay Cedex -- FRANCE

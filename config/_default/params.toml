@@ -1,9 +1,7 @@
 title = "Carlo Buccisano"
 author = "Carlo Buccisano"
-description = """
-Maths PhD Student
-Université Paris-Saclay
-"""
+#description = "Math PhD"
+
 profilePicture = "images/avatar.jpg"
 displayMode = "dark"
 favicon = "favicons/"
@@ -14,19 +12,17 @@ singleDateFormat = "Mon, Jan 2, 2006"
 indexDateFormat = "Mon, Jan 2, 2006"
 listDateFormat = "Jan 2"
 
-mainSections = []
+#mainSections = []
 
-# Google Fonts
-googleFonts = ["Ubuntu", "Roboto", "Open Sans"]
+#Google Fonts
+#googleFonts = ["Ubuntu", "Roboto", "Open Sans"]
 
 #disableThemeSwitcher = true # Theme switcher is enabled by default
 
-
 ## Math settings
-[math]
-enable = true  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
-use = "katex"  # options: "katex", "mathjax". default is "katex".
 
+math = true
+katex = true    # The alternative is mathjax, but Hugo seems to prefer KaTeX
 
 [[socialIcons]]
 icon = "fas fa-envelope"
@@ -38,3 +34,7 @@ icon = "fab fa-github"
 title = "github"
 url = "https://www.github.com/carlobuccisano"
 
+[[socialIcons]]
+icon = "fa-brands fa-orcid"
+title = "ORCiD"
+url = "https://orcid.org/0009-0001-9023-8754"

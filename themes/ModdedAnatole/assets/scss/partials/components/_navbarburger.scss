@@ -1,0 +1,62 @@
+@use 'modules/color_theme' as color;
+@use 'modules/config' as conf;
+
+.navbar-burger {
+  cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
+
+  display: block;
+  position: relative;
+  margin-left: auto;
+  padding: 4px; // Want a header of 56px
+  padding-right: 20px;
+  padding-bottom: 0;
+
+  &__line {
+    display: block;
+    height: 2px;
+    margin-bottom: 4px;
+    width: 20px;
+    transition: all 0.2s;
+    @include color.themed() {
+      background-color: color.t('primary');
+    }
+
+    &:nth-child(1) {
+      transform: rotate(45deg);
+      transform-origin: 16%;
+    }
+
+    &:nth-child(2) {
+      opacity: 0;
+    }
+
+    &:nth-child(3) {
+      transform: rotate(-45deg);
+      transform-origin: 0%;
+    }
+  }
+
+  @include conf.intermedio {
+    display: none;
+  }
+
+ }
+
+.quadrato {
+  .navbar-burger__line {
+    &:nth-child(1) {
+      transform: rotate(0);
+    }
+
+    &:nth-child(2) {
+      opacity: 1;
+    }
+
+    &:nth-child(3) {
+      transform: rotate(0);
+    }
+
+  }
+}

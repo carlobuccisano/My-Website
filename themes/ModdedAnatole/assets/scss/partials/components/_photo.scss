@@ -1,0 +1,17 @@
+@use 'modules/config' as conf;
+
+.profile_picture {
+   object-fit: contain;
+   border-radius: 3em;
+   width: 100%;
+   height: auto;
+}
+
+.side {
+  float: right !important;
+  padding: 2em;
+  max-width: 10em;
+  @include conf.intermedio {
+    max-width: 20em;
+  }
+}

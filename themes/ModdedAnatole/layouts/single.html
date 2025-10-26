@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <div
+    class="post in_out_slow_animated"
+  > 
+  <div class="post__content">
+      {{ if (eq .Site.Params.disableTitleCapitalization true) }}
+        <h1>{{ .Title }}</h1>
+      {{ else }}
+        <h1>{{ title .Title }}</h1>
+      {{ end }}
+       
+      {{ .Content }}
+    </div>
+    
+  </div>
+{{ end }}

@@ -2,39 +2,23 @@ baseURL = "https://carlobuccisano.github.io"
 languageCode = "en"
 DefaultContentLanguage = "en"
 
-theme = ["my_shortcodes", "anatole"]
-#theme = "anatole"
+title = "Carlo Buccisano"
+
+#theme = ["my_shortcodes", "anatole"]
+theme = "ModdedAnatole"
 
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
 
-# Enable Disqus
-#disqusShortname = ""
-
-# Google Analytics
-#googleAnalytics = "UA-123-45"
-
-# Syntax highlighting
-pygmentsUseClasses = true   
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-
 [markup]
     [markup.goldmark]
         [markup.goldmark.renderer]
-        unsafe=true
+        unsafe=true							    # To be able to write directly HTML code in md
     [markup.goldmark.extensions]
-      [markup.goldmark.extensions.passthrough]
+      [markup.goldmark.extensions.passthrough]   # To be able to render LaTeX expressions
         enable = true
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)']]
-[params]
-  math = true
 
-
-[taxonomies]
-    category = "categories"
-    series = "series"
-    tag = "tags"
