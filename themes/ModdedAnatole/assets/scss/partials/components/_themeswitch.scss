@@ -16,3 +16,11 @@
   }
   transition: all 0.35s ease-in;
 }
+
+.theme--dark #luna {
+  display: none !important;
+}
+
+.theme--light #sole {
+  display: none !important;
+}

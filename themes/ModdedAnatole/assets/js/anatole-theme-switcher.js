@@ -8,21 +8,6 @@ const setThemeStyle = (scelta) => {
     html.classList.remove(prevTheme); // Remove it, if that's the case
   }
   html.classList.add(`theme--${scelta}`); // Write the correct theme into <html>'s class
-  const sole = document.getElementById("sole");
-  const luna = document.getElementById("luna");
-  // Change theme switch icon 
-  switch (scelta) {
-	  case 'light':
-		 // Show the moon
-	     if(luna) luna.style.display = "block";
-		 if(sole) sole.style.display = "none";
-		 break;
-	  default:
-		 // Show the sun
-   		 if(luna) luna.style.display = "none";
-	     if(sole) sole.style.display = "block";
-		 break;
-  }
 };
 
 const setDarkTheme = () => {
@@ -47,9 +32,6 @@ const switchTheme = () => {
   }
 };
 
-
-
-
 const initTheme = e => {
 	if(e != null) {
 		setThemeStyle(e);
@@ -60,19 +42,19 @@ const initTheme = e => {
 	}
 };
 
+
+// Initialize the theme
+initTheme(getStoredThemeStyle());
+
 document.addEventListener(
   'DOMContentLoaded',
   () => {
-	initTheme(getStoredThemeStyle());
     const themeSwitcher = document.getElementById('themeswitch');
-    themeSwitcher.addEventListener('click', switchTheme, false);
+    if(themeSwitcher) {
+	  themeSwitcher.addEventListener('click', switchTheme, false);
+	}
   },
   false,
 );
 
-window
-  .matchMedia('(prefers-color-scheme: dark)')
-  .addEventListener('change', (e) => (e.matches ? setDarkTheme() : setLightTheme()), false);
 
-// Initialize the theme
-initTheme(getStoredThemeStyle());
