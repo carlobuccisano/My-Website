@@ -8,7 +8,8 @@
     list-style: none;
 
     @include colore.themed() {
-      background-color: SColor.change(colore.t('accent'), $alpha: variab.$transparency); // Changed this so it matches main color + some opacity
+      background-color: inherit; // Inherited from header
+      // SColor.change(colore.t('accent'), $alpha: variab.$transparency); // Changed this so it matches main color + some opacity
     }
 
       width: 100%;
@@ -105,13 +106,13 @@ a.my-name-link {
       flex-basis: auto;
        // Get it back to normal
       visibility: visible;
-      opacity: 1;
+      opacity: variab.$transparency;
       height: auto;
       max-height: 300px;
     }
     &.aperta {
       visibility: visible;
-      opacity: 1;
+      opacity: variab.$transparency;
       height: auto;
       max-height: 300px;
     }

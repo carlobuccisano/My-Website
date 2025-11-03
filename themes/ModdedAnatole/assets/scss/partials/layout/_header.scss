@@ -5,7 +5,7 @@
 
 .header {
   @include color.themed() {
-    background-color: SColor.change(color.t('accent'), $alpha: 0.9 );  // 90% opaque
+    background-color: SColor.change(color.t('accent'), $alpha: variab.$transparency );  // set % opaque as in variables
   }
   width: 100%;
   position: fixed;     // So it's fixed when scrolling

@@ -1,5 +1,5 @@
 <h1> 
-  Curriculum Vitae
+  CV
  <a class="cv_link slow_in_animated" href="https://raw.githubusercontent.com/carlobuccisano/Curriculum-Vitae/main/short_cv.pdf" target="__blank" rel="noopener noreferrer">
     <i class="fa-solid fa-file-pdf"></i>
  </a>
