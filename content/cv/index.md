@@ -1,6 +1,6 @@
 <h1> 
   CV
- <a class="cv_link slow_in_animated" href="https://raw.githubusercontent.com/carlobuccisano/Curriculum-Vitae/main/short_cv.pdf" target="__blank" rel="noopener noreferrer">
+ <a class="cv_link slow_in_animated" href="https://raw.githubusercontent.com/carlobuccisano/Curriculum-Vitae/main/Industry/English_Industry_CV.pdf" target="__blank" rel="noopener noreferrer">
     <i class="fa-solid fa-file-pdf"></i>
  </a>
 </h1>

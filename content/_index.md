@@ -1,22 +1,21 @@
 # About me
 
-## I'm on the job market.
-
 
 Hi all, I'm Carlo!
 
-I recently completed a PhD in Mathematics from the [Orsay Mathematics Department](https://www.imo.universite-paris-saclay.fr/) under the supervision of [Benjamin Hennion](https://www.imo.universite-paris-saclay.fr/~hennion/) and [Emanuele Macrì](https://www.imo.universite-paris-saclay.fr/~macri/).
+I'm a mathematician looking for a Machine Learning and/or Data Science role in the industry.
 
-My PhD thesis is titled *On derived D-modules and their several definitions*.
+I hold a PhD in Mathematics from the [Orsay Mathematics Department](https://www.imo.universite-paris-saclay.fr/) under the supervision of [Benjamin Hennion](https://www.imo.universite-paris-saclay.fr/~hennion/) and [Emanuele Macrì](https://www.imo.universite-paris-saclay.fr/~macri/). 
 
-<!-- The broad subject I worked in is derived algebraic geometry, which mixes homotopy theory with algebraic geometry. More specifically, I focused on *derived* D-modules, an extension of classical algebraic D-modules to derived schemes which remembers and exploits the additional derived information. Some keywords are (derived) Lie algebroids, ind-coherent sheaves and \(\infty\)-categories. -->
+I did research in derived algebraic geometry, which mixes modern homotopy theory with algebraic geometry. For more information about it, check out [Research](/research). 
 
-My broad research area is derived algebraic geometry.
+Right now, I am studying Machine Learning and AI related technology, as well as setting up a home lab to enter the world of self hosting.
+Generally speaking, I am passionate about programming (C++ and Python), love using Linux ("I use arch, btw") and open source software, as well as custom ROMs for mobile phones.
 
-Aside from mathematics, I'm interested in programming and everything Linux-related.
-During my free time I enjoy cooking, brewing coffee, calisthenics, bikepacking and general mountaineering.
+[//]: # (I competed in several competitive programming competitions and hold medals at the Italian national level.)
 
-## Contact
+[//]: # (I'm a fast learner and motivated worker; my strengths include perseverance, autonomy and direct communication skills.)
 
-> `name.surname AT universite-paris-saclay.fr`
+During my free time I enjoy stir-frying, brewing coffee, practicing calisthenics, bikepacking and general mountaineering.
 
+Feel free to reach out!

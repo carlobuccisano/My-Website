@@ -9,6 +9,23 @@
         	alt="profile picture"
       	/>
 		<ul class="social">
+			{{ range $item := .Site.Params.socialIconsBase64 }}
+				<li class="social-item">
+			 		<a 
+						class="slow_in_animated"
+						href="{{ $item.title }}"
+						data-enc="{{ $item.encoded }}"
+						rel="noopener me"
+						aria-label="{{ $item.title }}"
+						title="{{ $item.title }}"
+						onmouseover="this.href = {{ $item.prefix }} +atob(this.dataset.enc)"
+						onmouseout="this.href={{ $item.title }}"
+					>
+						<i class ="{{ $item.icon }} fa-2x" aria-hidden="true"></i>
+					</a>
+	   			</li>
+
+			{{ end }}
       		{{ range $item := .Site.Params.socialIcons }}
       		  <li class="social-item">
           		<a

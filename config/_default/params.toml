@@ -24,10 +24,16 @@ listDateFormat = "Jan 2"
 math = true
 katex = true    # The alternative is mathjax, but Hugo seems to prefer KaTeX
 
-[[socialIcons]]
+[[socialIconsBase64]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:carlo.buccisano@universite-paris-saclay.fr"
+encoded = "Y2FybG9idWNjaXNhbm9AcG0ubWU="
+prefix ="mailto:"
+
+[[socialIcons]]
+icon = "fa-solid fa-key"
+title = "Public PGP Key"
+url = "/mia_chiave_pubblica.pgp"
 
 [[socialIcons]]
 icon = "fab fa-github"
