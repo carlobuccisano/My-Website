@@ -41,6 +41,11 @@ title = "github"
 url = "https://www.github.com/carlobuccisano"
 
 [[socialIcons]]
+icon = "fa-brands fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/carlobuccisano"
+
+[[socialIcons]]
 icon = "fa-brands fa-orcid"
 title = "ORCiD"
 url = "https://orcid.org/0009-0001-9023-8754"

@@ -4,7 +4,6 @@ DefaultContentLanguage = "en"
 
 title = "Carlo Buccisano"
 
-#theme = ["my_shortcodes", "anatole"]
 theme = "ModdedAnatole"
 
 summarylength = 10

@@ -12,9 +12,9 @@
       @include conf.intermedio {
         font-size: large;
       }
-      @include conf.desktop {
-        font-size: x-large;
-      }
+      //@include conf.desktop {
+      //  font-size: x-large;
+      //}
     }
 
     a:hover {
