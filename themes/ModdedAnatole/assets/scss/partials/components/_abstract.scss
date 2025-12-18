@@ -1,0 +1,44 @@
+@use 'modules/color_theme' as colore;
+@use 'animated' as anim;
+
+.abstract {
+  border: dashed 1px;
+  border-radius: 10px;
+  @include colore.themed() {
+    border-color: colore.t('primary-lighter');
+    color: colore.t('primary-light');
+  }
+  text-align: justify;
+  font-size: 1.4rem;
+  line-height: 1.4em;
+  margin: 2em;
+  padding: 1em;
+  max-height: 30rem;
+  overflow: hidden;
+ }
+
+.hidden {
+    visibility: hidden;
+    max-height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-color: inherit;
+}
+
+.abstract_button {
+  background-color: transparent;
+  padding: 3px;
+  border-radius: 20%;
+  @include colore.themed() {
+    border: 1px solid colore.t('primary-lighter');
+    color: colore.t('primary-light');
+  }
+  &:hover {
+    cursor: pointer;
+    @include colore.themed() {
+      border: 1px solid colore.t('info');
+      color: colore.t('info');
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@use 'modules/config' as conf;
+
+.social {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    &-item {
+      display: inline;
+      padding: 0 4px;
+      line-height: 0;
+      font-size: x-small;
+      @include conf.intermedio {
+        font-size: large;
+      }
+      //@include conf.desktop {
+      //  font-size: x-large;
+      //}
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+ }

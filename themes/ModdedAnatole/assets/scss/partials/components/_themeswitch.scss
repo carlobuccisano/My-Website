@@ -1,0 +1,26 @@
+@use 'modules/color_theme' as colore;
+
+#themeswitch {
+  margin-top: -5px;
+  font-size: 1.75rem;
+  padding:0;
+  border:0;
+  background-color:inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+#themeswitch:hover {
+  @include colore.themed() {
+    color: colore.t('info');
+  }
+  transition: all 0.35s ease-in;
+}
+
+.theme--dark #luna {
+  display: none !important;
+}
+
+.theme--light #sole {
+  display: none !important;
+}

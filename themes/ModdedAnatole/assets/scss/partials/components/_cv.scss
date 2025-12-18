@@ -1,0 +1,112 @@
+@use 'modules/color_theme' as colore;
+@use 'modules/config' as conf;
+@use 'sass:color' as SColor;
+
+a.cv_link {
+  float: right !important;
+  @include colore.themed() {
+    color: colore.t('primary');
+  }
+  &:hover {
+    @include colore.themed() {
+      color: colore.t('info');
+    }
+    text-decoration: none;
+  }
+}
+
+.post__content .cv_div {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin-top: 1em;
+  border-radius: 5px;
+  @include colore.themed() {
+    border: 1px solid colore.t('primary-lighter');
+    background-color: SColor.change(colore.t('primary'), $alpha: 0.1);
+  }
+  line-height: 1.7rem;
+}
+
+.cv_table_title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 300 !important;
+}
+
+.cv_table {
+  width: 100%;
+  & tr, td {
+    border: 0 !important;
+  }
+}
+
+.cv_list {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  &_item {
+    list-style-type: none; // Remove the listing bullet
+    @include colore.themed() {
+      border-color: colore.t('primary-lighter');
+    }
+    border-style: none none solid none; // Only bottom border
+    border-width: 1px;
+    padding: 1em;
+    position: relative;
+  }
+  &_item:last-child {
+    border: none;
+  }
+  padding-left: 0;
+}
+
+.cv_education_row {
+  display: flex;
+  //flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.cv_little_left_box {
+  width: 75px;
+  position: relative;
+  @include conf.intermedio {
+    flex: 0 0 22%;
+    max-width: 22%;
+  }
+  text-align: center !important;
+}
+
+.cv_row_right_part {
+  @include conf.intermedio {
+    flex: 0 0 78%;
+    max-width: 78%;
+  }
+  padding-left: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.cv_years_box {
+  display: inline-block;
+  @include colore.themed() {
+    background-color: SColor.change(colore.t('primary-light'), $alpha: 0.9);
+    color: colore.t('accent');
+  }
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  white-space: nowrap; // Never break the line
+  margin: 0.8rem;
+  line-height: 1.5rem;
+}
+
+.cv_entry {
+  margin-top: 0;
+  margin-bottom: 1.8rem;
+}
+
+.istituto {
+  padding-right: 0.5rem;
+}

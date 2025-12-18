@@ -1,0 +1,27 @@
+baseURL = "https://carlobuccisano.github.io"
+languageCode = "en"
+DefaultContentLanguage = "en"
+
+title = "Carlo Buccisano"
+
+theme = "ModdedAnatole"
+
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=true							    # To be able to write directly HTML code in md
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]   # To be able to render LaTeX expressions
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+# Suggested by Hugo's GitHub Pages' documentation
+[caches]
+	[caches.images]
+		dir = ':cacheDir/images'

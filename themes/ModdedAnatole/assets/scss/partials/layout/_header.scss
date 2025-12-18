@@ -1,0 +1,23 @@
+@use 'modules/color_theme' as color;
+@use 'modules/config' as conf;
+@use 'sass:color' as SColor;
+@use 'modules/variables' as variab;
+
+.header {
+  @include color.themed() {
+    background-color: SColor.change(color.t('accent'), $alpha: variab.$transparency );  // set % opaque as in variables
+  }
+  width: 100%;
+  position: fixed;     // So it's fixed when scrolling
+  z-index: 1;
+  top: 0;
+  max-width: 800px;
+
+  @include color.themed() {
+      border-bottom: color.t('border');
+  }
+
+  @include conf.print {
+    display: none;
+  }
+}

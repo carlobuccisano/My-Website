@@ -1,0 +1,30 @@
+[[main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+[[main]]
+  name = "Research"
+  weight = 200
+  identifier = "research"
+  url = "/research/"
+
+[[main]]
+  name = "Teaching"
+  weight = 300
+  identifier = "teaching"
+  url = "/teaching/"
+
+
+[[main]]
+  name = "CV"
+  weight = 400
+  identifier = "cv"
+  url = "/cv/" 
+
+[[footer]]
+  name = "Colophon"
+  weight = 1
+  identifier = "colophon"
+  url = "/colophon/"

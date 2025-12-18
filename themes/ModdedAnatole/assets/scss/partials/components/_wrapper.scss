@@ -1,0 +1,20 @@
+@use 'hugo:vars' as hugo;
+@use 'modules/config' as conf;
+@use 'modules/variables' as var;
+
+.wrapper {
+  display: block;
+  width: 100%;
+
+  margin: auto;
+  max-width: 800px;
+
+  //@include conf.desktop {
+  //   margin-top: 0px;
+  //}
+
+  @include conf.widescreen {
+    width: var.$body-max-width;
+  }
+
+ }

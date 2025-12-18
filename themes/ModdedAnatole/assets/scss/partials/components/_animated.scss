@@ -1,0 +1,81 @@
+.animated {
+  transition: top 2s linear;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  -webkit-animation-name: fadeInDown;
+  -moz-animation-name: fadeInDown;
+  -o-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+
+  @-webkit-keyframes fadeInDown {
+    0% {
+      -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+      -webkit-transform: translateY(0);
+    }
+  }
+
+  @-moz-keyframes fadeInDown {
+    0% {
+      -moz-transform: translateY(-20px);
+    }
+
+    100% {
+      -moz-transform: translateY(0);
+    }
+  }
+
+  @-o-keyframes fadeInDown {
+    0% {
+      -o-transform: translateY(-20px);
+    }
+
+    100% {
+      -o-transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInDown {
+    0% {
+      transform: translateY(-20px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+}
+
+a.slow_in_animated:hover {
+  transition: all 0.4s ease-in;
+}
+
+.in_out_fast_animated {
+  transition: all 0.3s ease-in-out;
+}
+
+.in_out_slow_animated {
+  transition: all 0.5s ease !important;
+}
+
+ @keyframes MenuScrollDown {
+  from {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    max-height: 0;
+    transform: translateY(-200px);
+  }
+  to {
+    max-height: 250px;
+    height: 240px;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+} 

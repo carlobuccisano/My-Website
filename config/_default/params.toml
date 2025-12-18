@@ -1,0 +1,51 @@
+title = "Carlo Buccisano"
+author = "Carlo Buccisano"
+#description = "Math PhD"
+
+profilePicture = "images/avatar.jpg"
+displayMode = "dark"
+favicon = "favicons/"
+
+contentratio=0.8
+
+singleDateFormat = "Mon, Jan 2, 2006"
+indexDateFormat = "Mon, Jan 2, 2006"
+listDateFormat = "Jan 2"
+
+#mainSections = []
+
+#Google Fonts
+#googleFonts = ["Ubuntu", "Roboto", "Open Sans"]
+
+#disableThemeSwitcher = true # Theme switcher is enabled by default
+
+## Math settings
+
+math = true
+katex = true    # The alternative is mathjax, but Hugo seems to prefer KaTeX
+
+[[socialIconsBase64]]
+icon = "fas fa-envelope"
+title = "e-mail"
+encoded = "Y2FybG9idWNjaXNhbm9AcG0ubWU="
+prefix ="mailto:"
+
+[[socialIcons]]
+icon = "fa-solid fa-key"
+title = "Public PGP Key"
+url = "/mia_chiave_pubblica.pgp"
+
+[[socialIcons]]
+icon = "fab fa-github"
+title = "github"
+url = "https://www.github.com/carlobuccisano"
+
+[[socialIcons]]
+icon = "fa-brands fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/carlobuccisano"
+
+[[socialIcons]]
+icon = "fa-brands fa-orcid"
+title = "ORCiD"
+url = "https://orcid.org/0009-0001-9023-8754"
