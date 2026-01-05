@@ -12,7 +12,7 @@
 			{{ range $item := .Site.Params.socialIconsBase64 }}
 				<li class="social-item">
 			 		<a 
-						class="slow_in_animated"
+						class="in_out_fast_animated"
 						href="{{ $item.title }}"
 						data-enc="{{ $item.encoded }}"
 						rel="noopener me"
@@ -29,7 +29,7 @@
       		{{ range $item := .Site.Params.socialIcons }}
       		  <li class="social-item">
           		<a
-            		class = "slow_in_animated"
+            		class = "in_out_fast_animated"
 					href="{{ $item.url }}"
           		    target="_blank"
             		rel="noopener me"

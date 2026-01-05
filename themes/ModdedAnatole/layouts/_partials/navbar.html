@@ -1,6 +1,6 @@
 <nav class="navigation_bar">
 
-  <a class="my-name-link slow_in_animated" href="/">Carlo Buccisano</a>
+  <a class="my-name-link in_out_fast_animated" href="/">Carlo Buccisano</a>
   <button class="navbar-burger quadrato" aria-label="menu" aria-expanded="false">
     <span aria-hidden="true" class="navbar-burger__line"></span>
     <span aria-hidden="true" class="navbar-burger__line"></span>
@@ -39,7 +39,7 @@
                   <li class="optionswitch__list-item">
                     {{ .Pre }}
                     <a
-					  class="slow_in_animated"
+					  class="in_out_fast_animated"
                       href="{{ .URL }}"
                       {{ if strings.HasPrefix .URL "http" }}
                         target="_blank" rel="noopener noreferrer"
@@ -57,9 +57,9 @@
             {{ .Pre }}
             <a
               {{ if $active }}
-                class="nav__link--active slow_in_animated"
+                class="nav__link--active in_out_fast_animated"
 			  {{ else }}
-				class="slow_in_animated"
+				class="in_out_fast_animated"
               {{ end }}
               href="{{ .URL }}"
               {{ if strings.HasPrefix .URL "http" }}

@@ -50,6 +50,7 @@
 .nav__link--active {
       $py-desktop: 18px;
       text-decoration: underline;
+      font-weight: bolder;
 
       @include conf.intermedio {
         text-decoration: none;

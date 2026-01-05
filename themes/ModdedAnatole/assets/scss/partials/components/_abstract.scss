@@ -1,3 +1,4 @@
+@use 'modules/_config' as config;
 @use 'modules/color_theme' as colore;
 @use 'animated' as anim;
 
@@ -11,9 +12,17 @@
   text-align: justify;
   font-size: 1.4rem;
   line-height: 1.4em;
-  margin: 2em;
-  padding: 1em;
-  max-height: 30rem;
+  margin: 2rem;
+  padding: 1rem;
+  // From mobile phones
+  max-height: 45rem;
+
+  @include config.intermedio() {
+    max-height: 30rem;
+  }
+  @include config.desktop() {
+    max-height: 18rem;
+  }
   overflow: hidden;
  }
 
@@ -21,8 +30,8 @@
     visibility: hidden;
     max-height: 0;
     overflow: hidden;
-    margin: 0;
-    padding: 0;
+    margin: 0 2rem 0 2rem; // top-right-bottom-left
+    padding: 0 1rem 0 1rem;
     border-color: inherit;
 }
 

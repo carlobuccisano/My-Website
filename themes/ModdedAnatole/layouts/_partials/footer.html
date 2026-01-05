@@ -12,7 +12,7 @@
     {{ range .context.Site.Menus.footer }}
       <li class="footer__item">
         <a
-          class="link slow_in_animated"
+          class="link in_out_fast_animated"
           href="{{ .URL }}"
           {{ if strings.HasPrefix .URL "http" }}
             target="_blank" rel="noopener noreferrer"
